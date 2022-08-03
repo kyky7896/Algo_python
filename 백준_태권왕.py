@@ -1,5 +1,17 @@
 from collections import deque
 
+# 내부적으로 deque은 double-linked list로 구현되어 있습니다.
+
+# 그래서 양 끝의 요소의 추가/삭제가 O(1)을 만족하게됩니다.
+
+ 
+
+# 주요 함수:
+
+# append() : deque의 right end에 요소 추가
+# appendleft() :  deque의 lef end에 요소 추가
+# pop() : deque의 right end의 요소 삭제
+# popleft() : deque의 left end의 요소 삭제
 
 def solution(S, T):
     C = 0
