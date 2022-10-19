@@ -1,11 +1,9 @@
 from collections import deque
 
-# 내부적으로 deque은 double-linked list로 구현되어 있습니다.
-
+# deque은 double-linked list로 구현되어 있습니다.
 # 그래서 양 끝의 요소의 추가/삭제가 O(1)을 만족하게됩니다.
 
  
-
 # 주요 함수:
 
 # append() : deque의 right end에 요소 추가

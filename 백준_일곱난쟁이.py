@@ -7,3 +7,4 @@ for h in combinations(height,7):
     if sum(h)<100:
         for i in sorted(h):
             print(i)
+        break
