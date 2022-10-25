@@ -13,6 +13,10 @@ def solution(s):
     answer_list=lower_list+upper_list
     for ans in answer_list:
       answer+=(chr(ans))
-    print(answer)
+    # print(answer)
     return answer
 solution(s)
+
+##다른 사람의 풀이
+def solution1(s):
+    return ''.join(sorted(s, reverse=True))
