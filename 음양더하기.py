@@ -5,8 +5,7 @@ def solution(absolutes, signs):
         answer.append(absolutes[i])
       else:
         answer.append(absolutes[i]*-1)
-    print(sum(answer))
-    return answer
+    return sum(answer)
 
 absolutes=[4,7,12]
 signs=[True,False,True]
